@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flamengo FC | Official Team Website</title>
+  <link rel="icon" href="FFC.jpg">
+   <link rel="stylesheet" href="FLAMENGO FC.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <h2>Flamengo FC <img class="Logo"src="FFC.jpg"></h2>
+    <div>
+      <a href="#team">Team</a>
+      <a href="#schedule">Schedule</a>
+      <a href="#news">News</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <h1>Welcome to Flamengo FC</h1>
+    <p>Home of passion, pride, and performance.</p>
+  </section>
+
+  <!-- Team -->
+  <section id="team" class="team">
+    <h2>Our Team</h2>
+    <div class="players">
+        <div class="player">
+        <img src="https://via.placeholder.com/200" alt="Couch">
+        <h3>Oko Emmanuel A.</h3>
+        <p>Head<br>Couch</p>
+      </div>
+      <div class="player">
+        <img src="https://via.placeholder.com/200" alt="Player">
+        <h3>Agaba Waxy</h3><b>&copy;</b>
+        <p>90<br>Defensive Midfielder</p>
+      </div>
+      <div class="player">
+        <img src="https://via.placeholder.com/200" alt="Player">
+        <h3>John Major</h3>
+        <p>1<br>Goalkeeper</p>
+      </div>
+      <div class="player">
+        <img src="https://via.placeholder.com/200" alt="Player">
+        <h3>Amama J.Valentine</h3>
+        <p>16<br>Defender</p>
+      </div>
+       <div class="player">
+        <img src="https://via.placeholder.com/200" alt="Player">
+        <h3>Ugbe Godwin</h3><b>&copy;iii</b>
+        <p>28<br>Midfielder</p>
+      </div>
+      <div class="player">
+        <img src="https://via.placeholder.com/200" alt="Player">
+        <h3>Ublibli Jude</h3>
+        <p>12<br>Winger</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Schedule -->
+  <section id="schedule" class="schedule">
+    <h2>Match Schedule</h2>
+    <table>
+      <tr><th>Date</th><th>Opponent</th><th>Venue</th><th>Time</th><th>Result</th></tr>
+      <tr><td>Oct 20, 2025</td><td>Tigers FC</td><td>Home</td><td>15:45</td><td>-</td></tr>
+      <tr><td>Oct 27, 2025</td><td>Wolves FC</td><td>Away</td><td>16:00</td><td>-</td></tr>
+    </table>
+  </section>
+
+  <!-- News -->
+  <section id="news" class="news">
+    <h2>Latest News</h2>
+    <div class="news-article">
+      <h3>Flamengo FC Signs New Star Forward</h3>
+      <p>We are thrilled to welcome David Clark to the Flamengo family. His speed and precision will strengthen our attack this season!</p>
+    </div>
+    <div class="news-article">
+      <h3>Pre-season Training Begins</h3>
+      <p>Our players are back on the field preparing for an exciting new season. Stay tuned for updates!</p>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <textarea id="message" rows="4" placeholder="Your Message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Flamengo FC. All rights reserved.</p>
+  </footer>
+
+  <script>
+    // Simple contact form handler
+    document.getElementById("contactForm").addEventListener("submit", function(e) {
+      e.preventDefault();
+      alert("Thank you for contacting Flamengo FC! We'll get back to you soon.");
+      this.reset();
+    });
+  </script>
+</body>
+</html>
