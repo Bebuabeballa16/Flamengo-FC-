@@ -54,6 +54,14 @@
       width: 200px;
       box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     }
+    .couch{
+      background: blue;
+      color: white;
+      border-radius: 10px;
+      padding: 15px;
+      width: 200px;
+                                    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
     .player img {
       width: 100%;
       border-radius: 10px;
